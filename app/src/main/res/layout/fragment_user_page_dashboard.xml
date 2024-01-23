@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".user_page_dashboard"
+    android:background="@drawable/img_3">
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/img_7"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".5"
+        android:text="Welcome! Your decision to choose this app for child adoption or donation is truly appreciated. Your kindness will make a meaningful difference in a child's life. Thank you for joining us in this journey of compassion and support."
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:textSize="22dp"
+
+        />
+
+</LinearLayout>

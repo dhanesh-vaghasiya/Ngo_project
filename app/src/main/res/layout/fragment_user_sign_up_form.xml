@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/theme_orange"
+tools:context=".user_sign_up_form"
+android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/user_first_name_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:autofillHints="name"
+        android:background="@drawable/input_field_design"
+        android:hint="First name"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:paddingStart="30dp"
+        android:textColor="@color/theme_text_light_grey"
+        android:textColorHint="@color/theme_text_light_grey"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/user_last_name_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:autofillHints="name"
+        android:background="@drawable/input_field_design"
+        android:hint="Last name"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:paddingStart="30dp"
+        android:textColor="@color/theme_text_light_grey"
+        android:textColorHint="@color/theme_text_light_grey"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/user_email_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:autofillHints="emailAddress"
+        android:background="@drawable/input_field_design"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:paddingStart="30dp"
+        android:textColor="@color/theme_text_light_grey"
+        android:textColorHint="@color/theme_text_light_grey"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/user_password_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:autofillHints="password"
+        android:background="@drawable/input_field_design"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:paddingStart="30dp"
+        android:textColor="@color/theme_text_light_grey"
+        android:textColorHint="@color/theme_text_light_grey"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/user_confirm_password_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:autofillHints="password"
+        android:background="@drawable/input_field_design"
+        android:hint="Confirm password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:paddingStart="30dp"
+        android:textColor="@color/theme_text_light_grey"
+        android:textColorHint="@color/theme_text_light_grey"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <android.widget.Button
+            android:id="@+id/user_sign_up_btn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/login_change_btn"
+            android:elevation="5dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="Sign up"
+            android:textColor="@color/theme_text_light_grey"
+            android:textColorHint="@color/theme_text_light_grey"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

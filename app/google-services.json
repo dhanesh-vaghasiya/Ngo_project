@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "238381651617",
+    "project_id": "ngo-project-c91aa",
+    "storage_bucket": "ngo-project-c91aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238381651617:android:ec2ff0068750379c2882e0",
+        "android_client_info": {
+          "package_name": "com.example.ngo_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238381651617-o7hbbaa04dtorl0ifclr03c8cfcbkc74.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ngo_project",
+            "certificate_hash": "efcd2178c2445e2c03210fc763d7b12fdce19a88"
+          }
+        },
+        {
+          "client_id": "238381651617-at11ijdv215du22sgn6dg24goda5mujq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn6u_R3mkyZ2-ri3LYPyX_Bd5PvIPrNRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "238381651617-at11ijdv215du22sgn6dg24goda5mujq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

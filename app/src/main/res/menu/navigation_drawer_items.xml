@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dashboard_drawer_menu_btn"
+        android:title="Dashboard" />
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/child_adoption_drawer_menu_btn"
+
+        android:title="Child adoption" />
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/donate_drawer_menu_btn"
+
+        android:title="Donate" />
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/feedback_drawer_menu_btn"
+        android:title="Feedback" />
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/report_drawer_menu_btn"
+        android:title="Reports" />
+    <item
+        android:layout_width="wrap_content"
+        android:id="@+id/services_drawer_menu_btn"
+        android:layout_height="wrap_content"
+        android:title="Services" />
+    <item
+        android:id="@+id/contact_us_drawer_menu_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Contact us" />
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/about_us_drawer_menu_btn"
+        android:title="About us" />
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_drawer_menu_btn"
+        android:title="Login" />
+
+</menu>
