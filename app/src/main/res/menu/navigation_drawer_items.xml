@@ -29,11 +29,6 @@
         android:id="@+id/report_drawer_menu_btn"
         android:title="Reports" />
     <item
-        android:layout_width="wrap_content"
-        android:id="@+id/services_drawer_menu_btn"
-        android:layout_height="wrap_content"
-        android:title="Services" />
-    <item
         android:id="@+id/contact_us_drawer_menu_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

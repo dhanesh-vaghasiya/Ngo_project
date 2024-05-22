@@ -7,4 +7,9 @@
     <color name="theme_text_light_grey">#333333</color>
     <color name="theme_bright_red">#FF8383</color>
     <color name="theme_background_light_grey">#cccccc</color>
+    <color name="text_purple">#6C1682</color>
+
+    <color name="nav_drawer_color_grey">#535763</color>
+    <color name="selected_edt_blue">#0096FF</color>
+    <color name="nonselected_edt_grey">#6F6F6F</color>
 </resources>

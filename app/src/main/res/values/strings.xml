@@ -58,7 +58,7 @@ By clicking the button below, you will be directed to the official adoption form
 Thank you for considering adoption and for taking this initial step in providing a nurturing environment for a child in need. Your commitment to this process may profoundly impact the life of a child and fulfill the promise of a better future."</string>
 
     <string name="about_us_motive">
-        At [NGO Name], our driving force is the unwavering commitment to nurturing brighter futures for children in need. We passionately advocate for the well-being and rights of vulnerable children, striving to create a world where every child feels secure, loved, and empowered.
+        At our Ngo, our driving force is the unwavering commitment to nurturing brighter futures for children in need. We passionately advocate for the well-being and rights of vulnerable children, striving to create a world where every child feels secure, loved, and empowered.
     </string>
 
     <string name="about_us_mission">
@@ -70,16 +70,23 @@ Thank you for considering adoption and for taking this initial step in providing
     </string>
 
     <string name="guide_registration">
-        &#8226;To access the application, users will need to log in using their Gmail or Google account.\n&#8226;Select the "Login with Google" option on the login screen and enter the required credentials.
+        1) To access the application, users will need to log in using their email address.\n2) On the login screen enter the required credentials.
     </string>
 
     <string name="guide_adoption_request">
-        &#8226;After successful login, navigate to the adoption request section in the app\'s menu.\n&#8226;Complete the adoption request form by providing personal information: date of birth, marital status, occupation, permanent address, and child preferences (gender, age group).\n&#8226;Submit the form and await an email notification regarding the admin\'s decision on the adoption request.
+        1) After successful login, navigate to the adoption request section in the app\'s menu.\n2) Complete the adoption request form by providing personal information: date of birth, marital status, occupation, permanent address, and child preferences (gender, age group).\n3) Submit the form and await an email notification regarding the admin\'s decision on the adoption request.
     </string>
 
     <string name="guide_make_donation">
-        &#8226;Access the donation page within the app\'s designated section.\n&#8226;Choose the preferred donation amount or enter a custom donation value.\n&#8226;Complete the donation securely using the provided payment method options.
+        1) Access the donation page within the app\'s designated section.\n2) Choose the preferred donation amount or enter a custom donation value.\n3) Complete the donation securely using the provided payment method options.
     </string>
+    <string name="verification_text">A verification email has been sent to your email address. \n\nPlease check your inbox and follow the instructions to verify your email. \n \nAfter verification is complete, please wait for a moment. </string>
+    <string name="display_text1">Please complete the child adoption form with all required details and submit the request for adoption.</string>
+
+    <string name="donate_page_text">Making a donation is a noble act of generosity and kindness. Every contribution, no matter the amount, is highly valuable and helps us create a better future for children in need. Your donation will make a significant impact and earn you a special place in our mission to support and nurture young lives.\n\n
+We encourage you to start your donation today, with a minimum contribution of just ₹50. Together, we can bring about positive change and provide the resources and care that these children deserve.
+\n\n
+Thank you for your support and compassion.</string>
 
     <string-array name="gender">
         <item>Male</item>

@@ -1,104 +1,192 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".page_about_us"
-    android:background="@drawable/img_3">
+    android:background="#F4F6FE"
+    android:paddingTop="30dp"
+    tools:context=".page_about_us">
 
-    <!-- TODO: Update blank fragment layout -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        >
+        android:layout_marginHorizontal="20dp"
+        android:orientation="vertical">
+
         <TextView
-            android:layout_width="match_parent"
-            android:textStyle="bold"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Our Motive"
-            />
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/about_us_motive"
-            />
+            android:layout_marginTop="20dp"
+            android:textColor="#030303"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/img_10" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:textStyle="bold"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
             android:text="Our Mission"
-            />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/about_us_mission"
-            />
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
-            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/about_us_mission"
+            android:textColor="#030303"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/img_11" />
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Our Services"
-            />
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
         <TextView
             android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
             android:layout_height="wrap_content"
             android:text="@string/about_us_services"
-            />
+            android:textColor="#030303"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_12" />
 
 
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:text="How It Works."
-            />
+            android:text="NGO Guide"
+            android:textColor="@color/black"
+            android:layout_marginTop="30dp"
+            android:textSize="24dp"
+            android:textStyle="bold"/>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:elevation="5dp"
+            android:layout_marginTop="30dp"
+            android:padding="20dp"
+            android:background="@drawable/box_border_11"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Steps for registraction/login"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#030303"
+                android:text="@string/guide_registration"/>
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/img_13"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="5dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/box_border_11"
+            android:padding="20dp"
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Steps for child adoption"
                 android:textStyle="bold"
-                android:layout_height="wrap_content"
-                android:text="Steps for registration/login"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/guide_registration"
-                />
+                android:textColor="@color/black"
+                android:textSize="20dp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textStyle="bold"
-                android:text="Steps for child adoption"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/guide_adoption_request"
+                android:layout_marginTop="5dp"
+                android:textSize="14dp"
+                android:textColor="#030303"
+                android:text="@string/guide_adoption_request"/>
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="200dp"
+                android:src="@drawable/img_1"
                 />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Steps for donation process"
-                android:textStyle="bold"
-                />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/guide_adoption_request"
-                />
-
-
         </LinearLayout>
 
-
-
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:background="@drawable/box_border_11"
+            android:elevation="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="40dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Steps for donation process"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:textColor="#030303"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/guide_make_donation"/>
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:src="@drawable/img_6"
+                />
+        </LinearLayout>
     </LinearLayout>
-
-</FrameLayout>
+</ScrollView>
